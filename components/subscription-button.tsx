@@ -39,7 +39,7 @@ const SubscriptionButton = ({ isPro }: SubscriptionButtonProps) => {
       size="sm"
       variant={isPro ? 'default' : 'premium'}
     >
-      {isPro ? 'ManageSubscription' : 'Upgrade'}
+      {isPro ? 'Manage Subscription' : 'Upgrade'}
       {!isPro && <Sparkles className="h-4 w-4 ml-2 fill-white" />}
     </Button>
   );
