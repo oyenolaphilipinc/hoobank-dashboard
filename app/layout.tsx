@@ -12,7 +12,7 @@ import './globals.css';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'KDB - The Next Powerful AI Companion',
+  title: 'Virtiai - The Next Powerful AI Companion',
   description: 'Your customized AI companion.',
 };
 
